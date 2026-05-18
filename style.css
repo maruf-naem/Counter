@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    gap: 5px;
+
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 40%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#count{
+    font-size: 50px;
+    color: black;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    height: 60%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+#btnPlus{
+    height: 50px;
+    width: 30%;
+    font-size: 18px;
+}
+
+#btnMinus{
+    height: 50px;
+    width: 30%;
+    font-size: 18px;
+}
+
+#btnSave{
+    height: 50px;
+    width: 30%;
+    font-size: 18px;
+}
+
+#btnLoad{
+    height: 50px;
+    width: 30%;
+    font-size: 18px;
+}
+
+#btnReset{
+    height: 50px;
+    width: 30%;
+    font-size: 18px;
+}
